@@ -1,0 +1,50 @@
+/* container */
+.container{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* container-left================================================== */
+.container__left{
+    /* width: 18%; */
+    width: 220px;
+    height:calc(100vh);
+    padding-top: 20px;
+    border-right: 0.1px solid rgb(179 168 168);
+}
+.menu{
+    padding-top: 20px;
+    font-size: 13px;
+}
+.menu__title{
+    font-weight: 700;
+    padding-left: 10px;
+}
+.menu__title:hover{
+    color: rgb(107, 104, 96);
+}
+.menu__txt{
+    padding-left: 20px;
+}
+.menu__txt:focus{
+    background-color: aqua;
+}
+
+/* container-right============================================================= */
+.container__right{
+    flex: 1;
+}
+/* container-right-head */
+.container__head{
+    display: flex;
+    width: 100%;
+}
+.container__head--left{
+    width: 50%;
+
+}
+.container__head--right{
+    width: 50%;
+    justify-content: end;
+}
